@@ -1,6 +1,10 @@
-  const topbar = document.getElementById('topbar');
-  function updateWidth() {
+const topbar = document.getElementById('topbar');
+
+function updateWidth() {
+  if (topbar) {
     topbar.style.width = window.innerWidth + 'px';
   }
-  window.addEventListener('resize', updateWidth);
-  updateWidth();
+}
+
+updateWidth();
+window.addEventListener('resize', updateWidth);
