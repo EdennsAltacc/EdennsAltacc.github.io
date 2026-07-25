@@ -19,8 +19,8 @@ html, body {
 
 .topbar-text {
   color: #000000;
-  font-family: Arial, Helvetica, sans-serif !important; /* Forces flat look */
-  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif !important;
+  font-size: 50px !important;
   font-weight: normal;
   font-style: normal;
 }
